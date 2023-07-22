@@ -1,0 +1,179 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0 ;
+}
+
+.dark {
+    background-color: #1F2937;
+}
+
+.blue {
+    background-color: #3882F6;
+}
+
+.gray { 
+    background-color: #e5e7ebcb;
+}
+
+.header, .hero {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0% 20%;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7ebcb;
+}
+
+.primary {
+    font-size: 24px;
+    color: #F9FAF8;
+    justify-content: left;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero {
+    gap: 5%;
+    margin-top: 5%;
+    padding-bottom: 8%;
+}
+
+.hero-txt {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-img {
+    display: flex;
+    flex: 1 0 0;
+    justify-content: center;
+    align-items: center;
+    min-width: max-content;
+    min-height: max-content;
+}
+
+.btn {
+    color: white;
+    border-radius: 8px;
+    width: 130px;
+    padding: 5px;
+    font-size: medium;
+    transition-duration: 0.4s;
+    border: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color:#3882F6;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 1100px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 6%;
+    color: #1F2937;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+}
+
+.box {
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.quote {
+    padding: 5% 20%;
+}
+
+.banner {
+    border-radius: 8px;
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 0;
+    margin-bottom: 2%;
+}
+
+.banner-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+p.secondary, strong.primary {
+    margin: 1% 0;
+}
+
+.banner .btn {
+    border: 2px solid white;
+    height: 50%;
+}
+
+.credit {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 1%;
+}
